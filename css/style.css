@@ -41,6 +41,37 @@ body {
     background-color: #eee;
 }
 
+.column-container {
+    width: 100%;
+    height: 50vh;
+    background-color: red;
+}
+
+.columns-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.columns-6 {
+    width: 15%;
+    height: 300px;
+    background-color: blue;
+}
+
+.columns-3 {
+    width: 30%;
+    height: 300px;
+    background-color: blue;
+}
+
+.columns-2 {
+    width: 47%;
+    height: 300px;
+    background-color: blue;
+}
+
 p {
     padding: 0;
     margin: 0;
@@ -56,4 +87,35 @@ p {
     background-image: url("../img/web.jpg");
     opacity: 0.2;
     z-index: 1;
+}
+
+@media only screen and (max-width: 1200px){
+    .container{
+        max-width: 960px;
+        width: 960px;
+    }
+}
+
+@media only screen and (max-width: 960px){
+    .container{
+        max-width: 100vw;
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #navBar {
+        position: relative;
+    }
+
+    #navBar ul li {
+        background-color: #c41425;
+        width: 100%;
+        display: block;
+    }
+
+    #navBar ul {
+        margin: 0;
+        padding: 0;
+    }
 }
