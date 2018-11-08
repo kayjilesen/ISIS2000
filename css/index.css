@@ -1,0 +1,28 @@
+#indexBody {
+    max-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#columns-index {
+}
+
+.column-container {
+    display: table;
+    vertical-align: middle;
+    height: 100vh;
+}
+
+.column-wrapper {
+    display: table-cell;
+    height: 300px;
+    vertical-align: middle;
+}
+
+#columns-index .columns-6 {
+    height: 300px;
+}
+
+#welcomeTitle {
+    text-align: center;
+}
