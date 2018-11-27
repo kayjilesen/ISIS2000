@@ -1,5 +1,7 @@
 body {
     background-color: #eee;
+    font-size: 20px;
+    text-align: left;
 }
 
 .backgroundImage-6 {
@@ -14,11 +16,37 @@ body {
     z-index: 1;
 }
 
-
-div > h1 {
-    font-size: 30px;
+.columns-3 {
+    width: 30%;
+    height: 300px;
+    background-color: #c41425;
+    text-align: center;
 }
 
-div > p {
-    font-size: 20px;
+.HTML-demo {
+    width: 30%;
+    height: 300px;
+    background-color: #c41425;
+}
+
+.CSS-demo {
+    width: 30%;
+    height: 300px;
+    background-color: #c41425;
+}
+
+.Javascript-demo {
+    width: 30%;
+    height: 300px;
+    background-color: #c41425;
+}
+
+.Programs {
+    width: 47%;
+    height: 300px;
+    background-color: #c41425;
+}
+
+div > h1 {
+    font-size: 40px;
 }
