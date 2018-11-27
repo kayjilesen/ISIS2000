@@ -2,6 +2,19 @@ body {
     background-color: #eee;
 }
 
+.backgroundImage-6 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-image: url("../img/web-6.jpg");
+    opacity: 0.2;
+    z-index: 1;
+}
+
+
 div > h1 {
     font-size: 30px;
 }

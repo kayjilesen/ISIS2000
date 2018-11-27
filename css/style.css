@@ -93,18 +93,6 @@ p {
     z-index: 1;
 }
 
-.backgroundImage-6 {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-image: url("../img/web-6.jpg");
-    opacity: 0.2;
-    z-index: 1;
-}
-
 @media only screen and (max-width: 1200px){
     .container{
         max-width: 960px;
