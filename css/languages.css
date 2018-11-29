@@ -1,11 +1,10 @@
 body {
-    background-color: #eee;
     font-size: 20px;
     text-align: left;
 }
 
-.backgroundImage-6 {
-    position: absolute;
+.backgroundImage {
+    position: fixed;
     width: 100vw;
     height: 100vh;
     top: 0;
@@ -13,38 +12,35 @@ body {
     background-size: cover;
     background-image: url("../img/web-6.jpg");
     opacity: 0.2;
-    z-index: 1;
+    z-index: -1;
 }
 
 .columns-3 {
     width: 30%;
-    height: 300px;
     background-color: #c41425;
     text-align: center;
 }
 
-.HTML-demo {
-    width: 30%;
-    height: 300px;
+.columns-3 .button {
     background-color: #c41425;
+    padding: 12px;
 }
 
-.CSS-demo {
+.demo {
     width: 30%;
-    height: 300px;
     background-color: #c41425;
+    text-align: left;
 }
 
-.Javascript-demo {
-    width: 30%;
-    height: 300px;
-    background-color: #c41425;
-}
-
-.Programs {
+.columns-2 {
     width: 47%;
-    height: 300px;
     background-color: #c41425;
+}
+
+.programImage {
+    background-size: cover;
+    background-image: url("../img/autocomplete.jpg");
+    background-position: center;
 }
 
 div > h1 {
