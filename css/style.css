@@ -75,7 +75,6 @@ h1 {
     margin: 0 auto;
     padding: 16px;
     padding-top: 80px;
-    background-color: #eee;
     z-index: 2000;
 }
 
@@ -93,6 +92,10 @@ h1 {
 
 .columns-6 {
     width: 15%;
+}
+
+.columns-4 {
+    width: 20%;
 }
 
 .columns-3 {
@@ -115,15 +118,23 @@ p {
     top: 0;
     left: 0;
     background-size: cover;
-    background-image: url("../img/web.jpg");
-    opacity: 0.2;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.backgroundVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
     z-index: -1;
 }
 
 .button {
     padding: 8px 12px;
-    background-color: white;
-    color: black;
+    background-color: #c41425;
+    color: white;
     width: auto;
     margin: 12px;
     font-family: "Helvetica", "Arial", sans-serif;
@@ -134,8 +145,8 @@ p {
 }
 
 .button:hover {
-    background-color: #1f1f1f;
-    color: white;
+    background-color: white;
+    color: #c41425;
 }
 
 @media only screen and (max-width: 1200px){

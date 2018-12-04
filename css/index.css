@@ -7,6 +7,10 @@
 #columns-index {
 }
 
+.container {
+    padding-top: 40px;
+}
+
 .column-container {
     display: table;
     vertical-align: middle;
@@ -15,8 +19,11 @@
 
 .column-wrapper {
     display: table-cell;
-    height: 300px;
     vertical-align: middle;
+}
+
+.columns-4 {
+    background-color: rgba(225,225,225,0);    
 }
 
 #columns-index .columns-6 {
@@ -25,9 +32,25 @@
 
 #welcomeTitle {
     text-align: center;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+#welcomeTitle h1 {
+    margin: 0;
+}
+
+.columns-4 a {
+    text-decoration: none;
 }
 
 .iconHome {
-    width: 80%;
-    margin: 10%;
+    width: 60%;
+    margin: 1vw 20%;
+}
+
+.backgroundImage {
+    background-image: url("../img/backgroundVideo.mp4");
+    
 }
