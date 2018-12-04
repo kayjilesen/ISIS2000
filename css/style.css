@@ -25,8 +25,8 @@ h1 {
 
 #navBar ul li {
     display: inline-block;
-    padding: 8px 16px;
-    font-size: 20px;
+    padding: 8px 14px;
+    font-size: 18px;
     line-height: 40px;
     color: white;
     font-family: Helvetica, Arial, sans-serif;
@@ -37,6 +37,38 @@ h1 {
     color: #c41425;
 }
 
+#navBar ul li:hover ul {
+    display: block;
+    background-color: #c41425; 
+    padding: 0;
+}
+
+#navBar ul li ul {
+    display: none;
+}
+
+#navBar ul li ul li {
+    display: block;
+}
+
+.dropdown {
+    padding: 0px !important;
+}
+
+.dropbtn {
+    padding: 8px 14px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    float: left;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
 .container {
     max-width: 1200px;
     width: 1200px;
@@ -44,6 +76,7 @@ h1 {
     padding: 16px;
     padding-top: 80px;
     background-color: #eee;
+    z-index: 2000;
 }
 
 .column-container {
@@ -60,20 +93,14 @@ h1 {
 
 .columns-6 {
     width: 15%;
-    height: 300px;
-    background-color: blue;
 }
 
 .columns-3 {
     width: 30%;
-    height: 300px;
-    background-color: blue;
 }
 
 .columns-2 {
     width: 47%;
-    height: 300px;
-    background-color: blue;
 }
 
 p {
@@ -90,7 +117,25 @@ p {
     background-size: cover;
     background-image: url("../img/web.jpg");
     opacity: 0.2;
-    z-index: 1;
+    z-index: -1;
+}
+
+.button {
+    padding: 8px 12px;
+    background-color: white;
+    color: black;
+    width: auto;
+    margin: 12px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #1f1f1f;
+    color: white;
 }
 
 @media only screen and (max-width: 1200px){

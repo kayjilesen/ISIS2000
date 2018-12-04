@@ -10,8 +10,6 @@
     <script src="./js/script.js"></script>
 </head>
 <body id="indexBody">
-    <div class="backgroundImage"></div>
-
     <nav id="navBar">
         <ul>
             <a href="/"><li>Home</li></a>
@@ -21,6 +19,17 @@
             <a href="/majors.html"><li>Majors</li></a>
             <a href="/languages.html"><li>Languages & Programs</li></a>
             <a href="/contact.html"><li>Contact</li></a>
+            <li class="dropdown">
+                <div class="dropbtn">Portfolios 
+                    <i class="fa fa-caret-down"></i>
+                </div>
+                <ul class="dropdown-content">
+                    <a href="#"><li>Brock</li></a>
+                    <a href="#"><li>Jared</li></a>
+                    <a href="#"><li>Prince</li></a>
+                    <a href="#"><li>Kay</li></a>
+                <ul>
+            </li> 
         </ul>
     </nav>
     <div class="container">
@@ -28,7 +37,12 @@
             <div class="column-wrapper">
                 <span id="welcomeTitle"><h1>Welcome to IS2000!</h1></span>
                 <div class="columns-row" id="columns-index">
-                    <div class="columns-6"></div>
+                    <div class="columns-6">
+                        <div class="iconWrapper">
+                            <img class="iconHome" src="./img/study.png"></img>
+                        </div>
+                        <a href="https://google.nl"><div class="button">Learning Goals</div></a>
+                    </div>
                     <div class="columns-6"></div>
                     <div class="columns-6"></div>
                     <div class="columns-6"></div>
@@ -38,5 +52,7 @@
             </div>
         </div>
     </div>
+    <div class="backgroundImage"></div>
+
 </body>
 </html>
