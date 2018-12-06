@@ -10,13 +10,13 @@ body {
 
 .columns-1 {
     width: 100%;
-    height: 300px;
-    background-color: blue;
+    background-color: #c41425;
 }
 
 .columns-3 {
+    width: 30%;
     text-align: center;
-    font-size: 15px;
+    background-color: #c41425;
 }
 
 .backgroundImage {
