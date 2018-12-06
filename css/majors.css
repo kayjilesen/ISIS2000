@@ -10,11 +10,13 @@ body {
 
 .columns-1 {
     width: 100%;
+    height: unset;
     background-color: #c41425;
 }
 
 .columns-3 {
     width: 30%;
+    height: unset;
     text-align: center;
     background-color: #c41425;
 }
