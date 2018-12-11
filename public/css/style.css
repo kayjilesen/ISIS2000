@@ -1,10 +1,12 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #eee;
 }
 
 h1 {
     text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 #navBar {
@@ -148,6 +150,12 @@ p {
 .button:hover {
     background-color: white;
     color: #c41425;
+}
+
+li {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 26px;
 }
 
 @media only screen and (max-width: 1200px){
