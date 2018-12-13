@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>IS 2000</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/index.css" />
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+<<<<<<< HEAD:L&P.html
+        <div class="backgroundImage-6">
+
+            </div>
+    <nav id="navBar">
+        <ul>
+            <a href="./index.html"><li>Home</li></a>
+            <a href="/home"><li>Learning goals</li></a>
+            <a href="/home"><li>Preparation</li></a>
+            <a href="/home"><li>Prerequisites</li></a>
+            <a href="/home"><li>Majors</li></a>
+            <a href="./L&P.html"><li>Languages & Programs</li></a>
+            <a href="/home"><li>Contact</li></a>
+        </ul>
+    </nav>
+    <div class="container">
+        <span id="welcomeTitle"><h1>Programming Languages</h1></span>
+        <div class="columns-row" id="columns-index">
+            <div class="columns-3">
+                <h1>Javascript</h1>
+            </div>
+            <div class="columns-3">CSS</div>
+            <div class="columns-3">HTML</div>
+        </div>
+        <br>
+        <div class="columns-row" id="columns-index">
+            <div class="columns-3">
+                <h1>Javascript</h1>
+            </div>
+            <div class="columns-3">CSS</div>
+            <div class="columns-3">HTML</div>
+        </div>
+        <br>
+        <div class="columns-row" id="columns-index">
+            <div class="columns-2"></div>
+            <div class="columns-2"></div>
+=======
+    <div class="backgroundImage">
+    </div>
+    <nav id="navBar">
+        <ul>
+            <a href="./index.html">
+                <li>Home</li>
+            </a>
+            <a href="./learning.html">
+                <li>Learning goals</li>
+            </a>
+            <a href="./preparation.html">
+                <li>Preparation</li>
+            </a>
+            <a href="./prerequisites.html">
+                <li>Prerequisites</li>
+            </a>
+            <a href="./majors.html">
+                <li>Majors</li>
+            </a>
+            <a href="./languages.html">
+                <li>Languages & Programs</li>
+            </a>
+            <a href="./contact.html">
+                <li>Contact</li>
+            </a>
+        </ul>
+    </nav>
+    <div class="container">
+        <span id="welcomeTitle">
+            <h1>Languages and Programs</h1>
+        </span>
+        <div class="columns-row" id="columns-index">
+            <div class="columns-3">
+                <h1>HTML</h1>
+                <p>Stands for "Hypertext Markup Language." HTML is the language used to create webpages. "Hypertext"
+                    refers to the hyperlinks that an HTML page may contain. "Markup language" refers to the way tags
+                    are used to define the page layout and elements within the page.
+                </p>
+                <br>
+                <a href="https://techterms.com/definition/html" class="button" target="_blank">Source</a>
+            </div>
+            <div class="columns-3">
+                <h1>CSS</h1>
+                <p>Stands for "Cascading Style Sheet." Cascading style sheets are used to format the layout of Web
+                    pages. They can be used to define text styles, table sizes, and other aspects of Web pages that
+                    previously could only be defined in a page's HTML.
+                </p>
+                <br>
+                <br>
+                <a href="https://techterms.com/definition/css" class="button" target="_blank">Source</a>
+            </div>
+            <div class="columns-3">
+                <h1>JAVASCRIPT</h1>
+                <p>JavaScript is a programming language commonly used in web development. It was originally developed
+                    by Netscape as a means to add dynamic and interactive elements to websites. While JavaScript is
+                    influenced by Java, the syntax is more similar to C and is based on ECMAScript, a scripting
+                    language developed by Sun Microsystems.
+                </p>
+                <a href="https://techterms.com/definition/javascript" class="button" target="_blank">Source</a>
+            </div>
+        </div>
+        <div class="columns-row" id="columns-index">
+            <div class="columns-3 demo">
+                <p>
+                    <code>
+                        &lt;html&gt;<br>
+                            &lt;head&gt;<br>
+                            &lt;title&gt;Name of the page&lt;/title&gt;<br>
+                            &lt;/head&gt;<br>
+                            &lt;body&gt;<br>
+                            &lt;p&gt;
+                            This is where the main information goes.&lt;/p&gt;
+                            <br>
+                            &lt;/body&gt;<br>
+                            &lt;/html&gt;
+                        </code>
+                </p>
+            </div>
+            <div class="columns-3 demo">
+                <p>
+                    <code>
+                    .body {
+                    <pre>   background-color: red;</pre>
+                          }<br>
+                    .class {
+                    <pre>   font-size: 20px;</pre>
+                    }<br>
+                </code>
+                </p>
+            </div>
+            <div class="columns-3 demo">
+                <p>
+                    <code>
+                                    function sum(a,b){<br><br>
+                                      return a + b;<br><br>
+                                    }<br><br>
+                                    var total = sum(7,11);<br><br>
+                                    alert(total);
+                    </code>
+                </p>
+            </div>
+        </div>
+        <div class="columns-row" id="columns-index">
+            <div class="columns-2">
+                <h1>Source Code Editors</h1>
+                <p><a href="https://notepad-plus-plus.org" target="_blank">Notepad++</a></p><br>
+                <p><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></p><br>
+                <p><a href="https://nodejs.org/en/" target="_blank">Node JS</a></p>
+            </div>
+            <div class="columns-2 programImage">
+            </div>
+>>>>>>> L&P:languages.html
+        </div>
+    </div>
+    <br>
+    <h6>Page created by: <a href="./princeportfolio.html">Prince Nash</a></h6>
+</body>
+
+</html>
