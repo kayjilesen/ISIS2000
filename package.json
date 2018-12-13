@@ -1,0 +1,22 @@
+{
+  "name": "isis2000",
+  "version": "1.0.0",
+  "description": "Group Project - ISIS 2000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayjilesen/ISIS2000.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayjilesen/ISIS2000/issues"
+  },
+  "homepage": "https://github.com/kayjilesen/ISIS2000#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+.columns-2 {
+    width: 55%;
+}
+
+.columns-2 > h1 {
+    text-align: left;
+}
+
+.columns-1 {
+    height: unset;
+    width: 100%;
+}
+
+.columns-1 > h1 {
+    text-align: left;
+}
+
+.columns-1 > h2 {
+    text-align: left;
+}
+
+.image {
+
+}
