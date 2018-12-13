@@ -1,3 +1,48 @@
 body {
-    background-color: #eee;
+    font-size: 20px;
+    text-align: left;
+}
+
+.backgroundImage {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-image: url("../img/web-6.jpg");
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.columns-3 {
+    width: 30%;
+    background-color: #c41425;
+    text-align: center;
+}
+
+.columns-3 .button {
+    background-color: #c41425;
+    padding: 0px;
+}
+
+.demo {
+    width: 30%;
+    background-color: #c41425;
+    text-align: left;
+}
+
+.columns-2 {
+    width: 47%;
+    background-color: #c41425;
+}
+
+.programImage {
+    background-size: cover;
+    background-image: url("../img/autocomplete.jpg");
+    background-position: center;
+}
+
+div > h1 {
+    font-size: 40px;
 }
