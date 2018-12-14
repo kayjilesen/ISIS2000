@@ -9,7 +9,7 @@ h1 {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-h2 {
+h2, h3 {
     font-family: Helvetica, Arial, sans-serif; 
 }
 
@@ -174,6 +174,11 @@ li {
     color: white;
     font-family: "Helvetica", "Arial", sans-serif;
     text-decoration: none;
+}
+
+table, tr, th {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
 }
 
 @media only screen and (max-width: 1200px){

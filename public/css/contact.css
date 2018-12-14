@@ -115,6 +115,10 @@ p {
     margin: 0;
 }
 
+th {
+    text-align: justify;
+}
+
 .backgroundImage {
     position: absolute;
     width: 100vw;
