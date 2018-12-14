@@ -163,6 +163,14 @@ li {
     line-height: 26px;
 }
 
+.copyrightIndex {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    color: white;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
 @media only screen and (max-width: 1200px){
     .container{
         max-width: 960px;
