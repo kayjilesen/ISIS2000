@@ -9,6 +9,10 @@ h1 {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+h2 {
+    font-family: Helvetica, Arial, sans-serif; 
+}
+
 #navBar {
     width: 100vw;
     height: 60px;
@@ -78,10 +82,7 @@ h1 {
     margin: 0 auto;
     padding: 16px;
     padding-top: 80px;
-<<<<<<< HEAD:public/css/style.css
     z-index: 2000;
-=======
->>>>>>> L&P:css/style.css
 }
 
 .column-container {
@@ -98,36 +99,24 @@ h1 {
 
 .columns-6 {
     width: 15%;
-<<<<<<< HEAD:public/css/style.css
 }
 
 .columns-4 {
     width: 20%;
-=======
-    background-color: blue;
->>>>>>> L&P:css/style.css
 }
 
 .columns-3 {
     width: 30%;
-<<<<<<< HEAD:public/css/style.css
-=======
-    background-color: blue;
-    padding:12px;
->>>>>>> L&P:css/style.css
 }
 
 .columns-2 {
     width: 47%;
-<<<<<<< HEAD:public/css/style.css
-=======
-    background-color: blue;
->>>>>>> L&P:css/style.css
 }
 
 p {
-    padding: 0;
+    padding: 8px 0px;
     margin: 0;
+    font-family: "Helvetica", "Arial", sans-serif;
 }
 
 .backgroundImage {
@@ -137,7 +126,6 @@ p {
     top: 0;
     left: 0;
     background-size: cover;
-<<<<<<< HEAD:public/css/style.css
     opacity: 0.4;
     z-index: -1;
 }
@@ -173,11 +161,6 @@ li {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 20px;
     line-height: 26px;
-=======
-    background-image: url("../img/web.jpg");
-    opacity: 0.2;
-    z-index: -1;
->>>>>>> L&P:css/style.css
 }
 
 @media only screen and (max-width: 1200px){
