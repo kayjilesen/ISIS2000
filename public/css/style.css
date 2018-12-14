@@ -9,6 +9,10 @@ h1 {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+h2 {
+    font-family: Helvetica, Arial, sans-serif; 
+}
+
 #navBar {
     width: 100vw;
     height: 60px;
@@ -110,8 +114,9 @@ h1 {
 }
 
 p {
-    padding: 0;
+    padding: 8px 0px;
     margin: 0;
+    font-family: "Helvetica", "Arial", sans-serif;
 }
 
 .backgroundImage {
