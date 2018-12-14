@@ -167,8 +167,13 @@ li {
     position: absolute;
     left: 5px;
     bottom: 5px;
+    z-index: 9999;
+}
+
+.copyrightIndex a {
     color: white;
     font-family: "Helvetica", "Arial", sans-serif;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 1200px){
